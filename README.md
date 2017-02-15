@@ -3,6 +3,7 @@
 # makeTable.rb
 
 ・example
+
 FileName 
 ***
 1,2,3
@@ -12,6 +13,7 @@ FileName
 ruby makeTable.rb FileName
 
 ・result
+	# Tab
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}\hline
@@ -22,4 +24,5 @@ ruby makeTable.rb FileName
 		\caption{<++>}
 		\label{FileName}
 	\end{table}
+
 
