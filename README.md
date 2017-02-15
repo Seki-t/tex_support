@@ -13,6 +13,7 @@ FileName
 ruby makeTable.rb FileName
 
 ・result
+
 	# Tab
 	\begin{table}[H]
 		\centering
