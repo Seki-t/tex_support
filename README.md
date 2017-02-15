@@ -4,13 +4,13 @@
 
 ・example
 
-FileName 
+FileName.csv
 
 	1,2,3
 	4,5,6
 
 
-ruby makeTable.rb FileName
+ruby makeTable.rb FileName.csv
 
 ・result
 
