@@ -14,7 +14,6 @@ ruby makeTable.rb FileName
 
 ・result
 
-	# Tab
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|}\hline
