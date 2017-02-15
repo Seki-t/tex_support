@@ -8,12 +8,14 @@ class Table
 	attr_accessor :values
 
 	def initialize(file_name)
+		@f_name = file_name
 		@values = CSV.read(file_name)
 	end
 
 	def output(file)
 
 		file.print """\\begin{table}[H]
+	\\centering
 	"""
 		file.print "\\begin{tabular}{"
 		i = 0
@@ -42,7 +44,7 @@ class Table
 		file.print """\\end{tabular}
 	"""
 		file.print """\\caption{<++>}
-	\\label{<++>}
+	\\label{"""+ deleteExtention(@f_name) + """}
 \\end{table}
 """
 	end
